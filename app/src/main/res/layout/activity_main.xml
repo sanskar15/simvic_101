@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="358dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/simvic"></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Same Day"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:paddingTop="8dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Scrap Metal Collection"
+        android:textColor="@color/white"
+        android:paddingTop="3dp"
+        android:textSize="30sp"
+        android:gravity="center">
+    </TextView>
+
+    <Button
+        android:id="@+id/visitWebsite"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Visit Website"
+
+        android:textColor="#CDDC39"></Button>
+
+    <Button
+        android:id="@+id/CheckCurrentPrice"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#3F51B5"
+        android:text="Check Current Prices of Scrap Metal"
+        android:textColor="#CDDC39"></Button>
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#3F51B5"
+        android:text="Get A Quote"
+        android:textColor="#CDDC39"
+        ></Button>
+
+    <Button
+        android:id="@+id/privacypolicy"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#3F51B5"
+        android:text="Privacy Policy"
+        android:textColor="#CDDC39"></Button>
+
+</LinearLayout>
